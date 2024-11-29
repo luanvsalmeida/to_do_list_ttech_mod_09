@@ -1,8 +1,15 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: yellow;
 }
 
-a {
+a.link {
   color: #00B7FF;
+  cursor: pointer !important;
+}
+
+
+.oculto {
+  display: none;
 }
